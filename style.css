@@ -1,0 +1,16 @@
+/*static, relative, fixed, absolute*/
+/*CSS-tricks*/
+
+h1 {
+	background-color: #4aaaa5;
+	padding: 20px 0;
+	margin: 0;
+	margin-bottom: 20px;
+	font-size: 28px;
+	text-align: center;
+}
+
+.container {
+	color: #777777;
+
+}
