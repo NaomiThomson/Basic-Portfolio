@@ -44,7 +44,7 @@ nav {
 	top: 135px;
 }
 
-#main-bio, #contact-form {
+#main-bio, #contact-form, #portfolio {
 	margin-left: 100px;
 	width: 50%;
 	border-style: solid;
@@ -67,6 +67,16 @@ h2 {
 	border-bottom-color: #dddddd;
 }
 
+h3 {
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	margin: 0px 20px 20px 20px;
+	padding: 20px 10px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #dddddd;
+}
 
 #bio-image {
 	float: left;
@@ -96,6 +106,8 @@ form {
 
 #connect-imgs {
 	margin: 20px;
+	display: flex;
+  	justify-content: space-between;
 }
 
 .footer {
@@ -110,10 +122,9 @@ form {
 	top: 550px;
 }
 
-#github {
-	float: left;
-}
 
-#overstack {
-	float: right;
+#portfolio {
+	margin: 20px;
+	display: flex;
+  	justify-content: space-between;
 }
